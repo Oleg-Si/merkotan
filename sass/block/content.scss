@@ -1,0 +1,108 @@
+.content {
+  padding-top: 25px;
+  max-width: 850px;
+
+  &__title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  &__descr {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &__list {
+    @include reset-ul;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &_item {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+@media ($mobile-width) {
+
+}
+@media ($tablet-width) {
+
+}
+@media ($desktop-width) {
+  .content {
+    &__title {
+      font-size: 30px;
+      line-height: 38px;
+    }
+
+    &__descr {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    &__list {
+      &_item {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media ($med-desktop-width) {
+  .content {
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    &__descr {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    &__list {
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+      &_item {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+
+@media ($big-desktop-width) {
+  .content {
+    &__title {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 58px;
+    }
+
+    &__descr {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    &__list {
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+      &_item {
+        font-size: 28px;
+        line-height: 50px;
+      }
+    }
+  }
+}

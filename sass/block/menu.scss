@@ -1,0 +1,27 @@
+.menu__btn {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  width: 30px;
+  height: 18px;
+  background-image: url('../img/burger.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+@media ($mobile-width) {
+
+}
+@media ($tablet-width) {
+
+}
+@media ($desktop-width) {
+
+}
+@media ($big-desktop-width) {
+  .menu__btn {
+    width: 40px;
+    height: 24px;
+  }
+}

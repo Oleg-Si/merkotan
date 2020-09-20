@@ -1,0 +1,26 @@
+.logo {
+  display: block;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-top: -10px;
+  cursor: default;
+}
+@media ($mobile-width) {
+
+}
+@media ($tablet-width) {
+
+}
+@media ($desktop-width) {
+
+}
+@media ($big-desktop-width) {
+  .logo {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+  }
+}

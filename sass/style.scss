@@ -1,0 +1,33 @@
+/* ------------------------------------------------ */
+
+@import "global/normalize.scss";
+
+/* ------------------------------------------------ */
+
+@import "global/variables.scss";
+
+@import "global/mixin.scss";
+
+@import "global/scaffolding.scss";
+
+/* ------------------------------------------------ */
+
+@import "global/fonts.scss";
+
+/* ------------------------------------------------ */
+
+@import "block/header.scss";
+@import "block/footer.scss";
+@import "block/btn.scss";
+@import "block/menu.scss";
+@import "block/logo.scss";
+
+/* ------------------------------------------------ */
+
+@import "block/content.scss";
+@import "block/links.scss";
+@import "block/slider.scss";
+@import "block/phone.scss";
+@import "block/main.scss";
+@import "block/popups.scss";
+@import "block/manager.scss";

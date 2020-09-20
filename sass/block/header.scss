@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    @include container;
+    justify-content: space-between;
+  }
+}
+@media ($mobile-width) {
+
+}
+@media ($tablet-width) {
+
+}
+@media ($desktop-width) {
+
+}
+@media ($big-desktop-width) {
+
+}

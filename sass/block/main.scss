@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  &__wrapper {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media ($mobile-width) {
+
+}
+@media ($tablet-width) {
+  .main {
+    &__wrapper {
+      width: 60%;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
+@media ($desktop-width) {
+  .main {
+    &__wrapper {
+      width: 55%;
+    }
+  }
+}
+@media ($big-desktop-width) {
+  .main {
+    &__wrapper {
+      width: 60%;
+      max-width: 970px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@mixin reset-ul() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@mixin container() {
+  display: flex;
+  width: 100%;
+
+  @media ($mobile-width) {
+  }
+  @media ($tablet-width) {
+  }
+  @media ($desktop-width) {
+  }
+  @media ($big-desktop-width) {
+  }
+}
