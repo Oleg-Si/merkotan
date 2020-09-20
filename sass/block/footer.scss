@@ -48,9 +48,7 @@
     }
   }
 }
-@media ($mobile-width) {
 
-}
 @media ($tablet-width) {
   .footer {
     &__wrapper {
@@ -60,6 +58,7 @@
     }
   }
 }
+
 @media ($desktop-width) {
   .footer {
     &__wrapper {
@@ -68,13 +67,11 @@
     }
   }
 }
+
 @media ($med-desktop-width) {
   .footer {
     &__wrapper {
       margin-top: 60px;
     }
   }
-}
-@media ($big-desktop-width) {
-
 }

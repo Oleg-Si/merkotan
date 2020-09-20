@@ -25,11 +25,11 @@ body {
   font-family: $font-main;
   background-color: #292F33;
   color: #fff;
-  //min-height: 100vh;
   background-image: url('../img/bubles.png');
+  background-size: cover;
 }
 .app {
-  //min-height: 100vh;
+  min-height: 100vh;
   max-width: 1730px;
   width: 90%;
   margin-left: auto;
@@ -39,7 +39,6 @@ body {
   justify-content: space-between;
   flex-direction: column;
   padding-top: 20px;
-  background-color: red;
 }
 @media ($med-desktop-width) {
   .app {

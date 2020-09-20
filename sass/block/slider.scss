@@ -28,9 +28,7 @@
   margin-right: -7px;
   margin-left: -7px;
 }
-@media ($mobile-width) {
 
-}
 @media ($tablet-width) {
   .slider {
     &__slide {
@@ -38,6 +36,7 @@
     }
   }
 }
+
 @media ($desktop-width) {
   .slider {
     &__wrapper {

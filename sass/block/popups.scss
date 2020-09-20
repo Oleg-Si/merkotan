@@ -46,18 +46,10 @@
     display: flex;
   }
 }
-@media ($mobile-width) {
 
-}
-@media ($tablet-width) {
-
-}
 @media ($desktop-width) {
   .entry-form {
     top: 50%;
-    margin-top: -35px;
+    margin-top: -85px;
   }
-}
-@media ($big-desktop-width) {
-
 }

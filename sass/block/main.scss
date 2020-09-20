@@ -9,9 +9,6 @@
   }
 }
 
-@media ($mobile-width) {
-
-}
 @media ($tablet-width) {
   .main {
     &__wrapper {
@@ -21,6 +18,7 @@
     }
   }
 }
+
 @media ($desktop-width) {
   .main {
     &__wrapper {
@@ -28,6 +26,7 @@
     }
   }
 }
+
 @media ($big-desktop-width) {
   .main {
     &__wrapper {
